@@ -5,19 +5,6 @@
 
 #include <iostream>
 
-// XXX change to using proper types - templates?
-/*class Color: public Vec3 { 
-    using Vec3::Vec3;
-
-    public:
-        Color(Vec3 vec) : Vec3(vec.x(), vec.y(), vec.z()) {
-        }
-};*/
-
-//inline Color operator+(const Color &u, const Color &v) {
-//    return Color(u.x() + v.x(), u.y() + v.y(), u.z() + v.z());
-//}
-
 using Color = Vec3;
 
 void write_color(std::ostream &out, Color pixel_color, int samples_per_pixel) {

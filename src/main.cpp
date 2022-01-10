@@ -78,7 +78,6 @@ Hittables random_scene() {
 }
 
 
-// change to https://github.com/nothings/stb
 void output_image() {
     // Image
     const auto aspect_ratio = 3.0 / 2.0;
